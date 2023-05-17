@@ -9,4 +9,4 @@ This is a Multi Database desktop based car rental application. MS-SQL Server is 
       c. No-SQL Database: Flexiblity.
             
 ## Release 1 DFD:
-[![CRent-DFD-Image.png](https://i.postimg.cc/xjB1NPPh/CRent-DFD-Image.png)](https://postimg.cc/w3cpSLZQ)
+[CRent-DFD-Image.png](https://postimg.cc/w3cpSLZQ)
