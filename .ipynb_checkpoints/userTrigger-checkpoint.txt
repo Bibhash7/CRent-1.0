@@ -1,0 +1,14 @@
+create or alter trigger tr_dml
+on [dbo].[user]
+after delete
+as
+begin
+	
+	if exists(select * from deleted) and not exists(select * from inserted)
+	insert into userlogs
+	select username,fname,lname,gender,email,address,'DELETE','ADMIN',getdate()
+	from deleted
+
+	else
+	print 'Nothing Changed'
+end

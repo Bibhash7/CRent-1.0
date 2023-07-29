@@ -1,0 +1,14 @@
+create or alter trigger tr_dml_cars
+on [dbo].[cars]
+after delete
+as
+begin
+	
+	if exists(select * from deleted) and not exists(select * from inserted)
+	insert into carslogs
+	select carid,model,speed,cost,availcars,rating,'DELETE','ADMIN',getdate()
+	from deleted
+
+	else
+	print 'Nothing Changed'
+end
