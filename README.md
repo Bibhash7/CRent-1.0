@@ -1,7 +1,7 @@
 # CRent-1.0
 This is a Multi Database desktop based car rental application. MS-SQL Server is used for storing the transactional data where Cassandra No-SQL is used for storing and Analytics Purpose.
 
-Upd: Added Trigger to store the deleted user information into userlogs.
+Upd: Added Triggers to store the deleted user and cars information into userlogs and carslogs respectively.
 
 1. **Reason for choosing MS SQL Server**: 
      a. For transactional data store as it provides more consistancy and availability.
