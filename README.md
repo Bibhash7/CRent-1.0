@@ -11,4 +11,4 @@ Upd: Added Triggers to store the deleted user and cars information into userlogs
      c. No-SQL Database: Flexiblity.
             
 ## Release 1 DFD:
-[![CRent-DFD-Image.png](https://i.postimg.cc/vZB2R5J8/CRent-DFD-Image.png)](https://postimg.cc/XpRkdBNt)
+[![Crent-DFD-2.png](https://i.postimg.cc/QM8rCbnP/Crent-DFD-2.png)](https://postimg.cc/mP5n6Q4N)
